@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic ;
+
+
+}
+header{
+    background-image :   linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.jpg);                                                  
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+
+}
+ul{
+       
+        float: right;
+        list-style-type: none;
+        margin-top: 25px;
+
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul  li a:hover{
+    background-color: #fff;
+    color: #000;
+
+
+}
+ul li .active a{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+
+}
+.title{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+
+
+
+}
+.title h1{
+    
+    font-size: 70px;
+    margin-top: 80px;
+
+}
+.title p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+.button{ 
+    
+position: absolute;
+    
+    top: 72%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    
+
+
+
+
+
+
+
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    margin: 20px 10px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px 10px;
+    border: 2px solid #009688;
+    cursor: pointer;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+
+    
+    background: #00968700;
+    
+
+    
+    
+    
+    
+
+}
+.span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    
+    
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+.button :hover span{
+
+
+    width:100% ;
+
+}
+.button :hover{
+    border: none;
+    background: #009687;
+    transition: 1s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
